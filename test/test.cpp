@@ -78,28 +78,28 @@ int binnary_diff(const char* file1, const char* file2);
 
 int main(int argc, char* argv[])
 {
-	amf0_test();
-	rtp_queue_test();
-	mpeg4_aac_test();
-	mpeg4_avc_test();
-	mpeg4_hevc_test();
-	mp3_header_test();
-	sdp_a_fmtp_test();
-	sdp_a_rtpmap_test();
-	rtsp_header_range_test();
-	rtsp_header_rtp_info_test();
-	rtsp_header_transport_test();
-	http_header_host_test();
-	http_header_auth_test();
-	http_header_content_type_test();
-	http_header_authorization_test();
-	http_header_www_authenticate_test();
-	rtsp_client_auth_test();
-	sip_header_test();
-	
-	socket_init();
-	sip_uac_message_test();
-	sip_uas_message_test();
+//	amf0_test();
+//	rtp_queue_test();
+//	mpeg4_aac_test();
+//	mpeg4_avc_test();
+//	mpeg4_hevc_test();
+//	mp3_header_test();
+//	sdp_a_fmtp_test();
+//	sdp_a_rtpmap_test();
+//	rtsp_header_range_test();
+//	rtsp_header_rtp_info_test();
+//	rtsp_header_transport_test();
+//	http_header_host_test();
+//	http_header_auth_test();
+//	http_header_content_type_test();
+//	http_header_authorization_test();
+//	http_header_www_authenticate_test();
+//	rtsp_client_auth_test();
+//	sip_header_test();
+//
+//	socket_init();
+//	sip_uac_message_test();
+//	sip_uas_message_test();
 
 	//mpeg_ts_dec_test("fileSequence0.ts");
 	//mpeg_ts_test("hevc_aac.ts");
@@ -132,7 +132,7 @@ int main(int argc, char* argv[])
 	//http_server_test(NULL, 80);
 
 	//rtsp_client_test("192.168.241.129", "test.rtp");
-	//rtsp_example();
+	rtsp_example();
 	//rtsp_push_server();
 
 	//rtmp_play_test("192.168.241.129", "live", "hevc", "h265.flv");

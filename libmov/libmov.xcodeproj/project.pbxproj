@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		461F0BEC22F80F1400A995BD /* mov-opus.c in Sources */ = {isa = PBXBuildFile; fileRef = 461F0BEB22F80F1400A995BD /* mov-opus.c */; };
-		4680238625997F1500AD5A52 /* mov-udta.c in Sources */ = {isa = PBXBuildFile; fileRef = 4680238525997F1500AD5A52 /* mov-udta.c */; };
 		468B916223B8AE8700EA99A3 /* mov-av1.c in Sources */ = {isa = PBXBuildFile; fileRef = 468B916123B8AE8700EA99A3 /* mov-av1.c */; };
 		46C5B31D2183EDEE00419E57 /* mov-mfhd.c in Sources */ = {isa = PBXBuildFile; fileRef = 46C5B2FA2183EDEE00419E57 /* mov-mfhd.c */; };
 		46C5B31E2183EDEE00419E57 /* mov-elst.c in Sources */ = {isa = PBXBuildFile; fileRef = 46C5B2FB2183EDEE00419E57 /* mov-elst.c */; };
@@ -47,11 +46,11 @@
 		46C5B33F2183EDEE00419E57 /* mov-stsc.c in Sources */ = {isa = PBXBuildFile; fileRef = 46C5B31C2183EDEE00419E57 /* mov-stsc.c */; };
 		46E55E4F24694AAE00D8BDBA /* mov-vpcc.c in Sources */ = {isa = PBXBuildFile; fileRef = 46E55E4E24694AAE00D8BDBA /* mov-vpcc.c */; };
 		46E55E5124694BC400D8BDBA /* mov-hdr.c in Sources */ = {isa = PBXBuildFile; fileRef = 46E55E5024694BC400D8BDBA /* mov-hdr.c */; };
+		F38A9B94258E4A85005A7AAA /* mov-udta.c in Sources */ = {isa = PBXBuildFile; fileRef = F38A9B93258E4A85005A7AAA /* mov-udta.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		461F0BEB22F80F1400A995BD /* mov-opus.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "mov-opus.c"; sourceTree = "<group>"; };
-		4680238525997F1500AD5A52 /* mov-udta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mov-udta.c"; sourceTree = "<group>"; };
 		468B916123B8AE8700EA99A3 /* mov-av1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mov-av1.c"; sourceTree = "<group>"; };
 		46C5B2522183EB6400419E57 /* libmov.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmov.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C5B2F82183EDE600419E57 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
@@ -92,6 +91,7 @@
 		46C5B31C2183EDEE00419E57 /* mov-stsc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mov-stsc.c"; sourceTree = "<group>"; };
 		46E55E4E24694AAE00D8BDBA /* mov-vpcc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "mov-vpcc.c"; sourceTree = "<group>"; };
 		46E55E5024694BC400D8BDBA /* mov-hdr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "mov-hdr.c"; sourceTree = "<group>"; };
+		F38A9B93258E4A85005A7AAA /* mov-udta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mov-udta.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 		46C5B2F92183EDEE00419E57 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				4680238525997F1500AD5A52 /* mov-udta.c */,
+				F38A9B93258E4A85005A7AAA /* mov-udta.c */,
 				46C5B30E2183EDEE00419E57 /* fmp4-writer.c */,
 				468B916123B8AE8700EA99A3 /* mov-av1.c */,
 				46C5B3162183EDEE00419E57 /* mov-avc1.c */,
@@ -274,7 +274,7 @@
 				46C5B33A2183EDEE00419E57 /* mov-esds.c in Sources */,
 				46C5B32A2183EDEE00419E57 /* mov-writer.c in Sources */,
 				46C5B3242183EDEE00419E57 /* mov-tfra.c in Sources */,
-				4680238625997F1500AD5A52 /* mov-udta.c in Sources */,
+				F38A9B94258E4A85005A7AAA /* mov-udta.c in Sources */,
 				46C5B3272183EDEE00419E57 /* mov-trun.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

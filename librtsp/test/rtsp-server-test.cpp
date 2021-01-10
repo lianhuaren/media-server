@@ -504,6 +504,8 @@ static void rtsp_onerror(void* /*param*/, rtsp_server_t* rtsp, int code)
 #define N_AIO_THREAD 4
 extern "C" void rtsp_example()
 {
+    //rtsp://127.0.0.1:8554/live/aa.mp4
+    
 	aio_worker_init(N_AIO_THREAD);
 
 	struct aio_rtsp_handler_t handler;

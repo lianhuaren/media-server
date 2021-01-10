@@ -123,6 +123,7 @@ static int rtsp_session_send(void* ptr, const void* data, size_t bytes)
 	struct rtsp_session_t *session;
 	session = (struct rtsp_session_t *)ptr;
 	//return aio_tcp_transport_send(session->aio, data, bytes);
+    printf("===>>>>>>>>>>>>>>>>>>\n%s\n",(char *)data);
 
 	// TODO: send multiple rtp packet once time
 	return bytes == socket_send(session->socket, data, bytes, 0) ? 0 : -1;

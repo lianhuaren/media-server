@@ -41,6 +41,7 @@ int rtsp_server_input(struct rtsp_server_t* rtsp, const void* data, size_t* byte
 {
 	int r;
 	r = http_parser_input(rtsp->parser, data, bytes);
+    printf("===<<<<<<<<<<<<<<<<<<\n%s\n",(char *)data);
 	assert(r <= 2); // 1-need more data
 	if (0 == r)
 	{
